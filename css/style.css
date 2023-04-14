@@ -1,0 +1,243 @@
+body{
+    margin: 0 auto;
+  }
+  
+  
+  .sun{
+    position: relative;
+    width: 350px;
+    top: -20px;
+    height: 350px;
+    border-radius: 200px;
+    background-color: rgb(225, 255, 0);
+  }
+  
+  
+  .kolobok{
+    position: relative;
+    top: 270px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: rgb(253, 213, 164);
+    animation: perekat linear 7s 1s infinite alternate;
+  }
+  
+  .yea1{
+    position: relative;
+    top: 50px;
+    left: 45px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: black;
+  }
+  
+  
+  .yea2{
+    position: absolute;
+    top: 50px;
+    right: 45px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: black;
+  }
+  
+  
+  .smile{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -30px;
+    left: 20px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top: 4px solid black;
+    transform: rotateZ(180deg);
+  }
+  
+  .luci{
+    position: relative;
+    top: -100px;
+  }
+  
+  
+  
+  .luc6{
+    position: relative;
+    top: -173px;
+    left: 47px;
+    width: 150px;
+    height: 10px;
+    background-color: rgb(225, 255, 0);
+    transform: rotateZ(80deg);
+    animation: shalapay6 linear 1s 0s infinite normal;
+    z-index: 2;
+  }
+  
+  .luc5{
+    position: relative;
+    top: -187px;
+    left: 65px;
+    width: 150px;
+    height: 10px;
+    background-color: rgb(225, 255, 0);
+    transform: rotateZ(62deg);
+    animation: shalapay5 linear 1s 0s infinite normal;
+    z-index: 2;
+  }
+  
+  .luc4{
+    position: relative;
+    top: -207px;
+    left: 88px;
+    width: 150px;
+    height: 10px;
+    background-color: rgb(225, 255, 0);
+    transform: rotateZ(36deg);
+    animation: shalapay4 linear 1s 0s infinite normal;
+    z-index: 2;
+  }
+  
+  .luc3{
+    position: relative;
+    top: -240px;
+    left: 96px;
+    width: 150px;
+    height: 10px;
+    background-color: rgb(225, 255, 0);
+    transform: rotateZ(22deg);
+    animation: shalapay3 linear 1s 0s infinite normal;
+    z-index: 2;
+  }
+  
+  .luc2{
+    position: relative;
+    top: -270px;
+    left: 100px;
+    width: 150px;
+    height: 10px;
+    background-color: rgb(225, 255, 0);
+    transform: rotateZ(10deg);
+    animation: shalapay2 linear 1s 0s infinite normal;
+    z-index: 2;
+  }
+  
+  .luc1{
+    position: relative;
+    top: -300px;
+    left: 100px;
+    width: 150px;
+    height: 10px;
+    background-color: rgb(225, 255, 0);
+    transform: rotateZ(0deg);
+    animation: shalapay1 linear 1s 0s infinite normal;
+    z-index: 2;
+  }
+  
+  
+  @keyframes perekat{
+    0%{
+      transform: rotateZ(0deg);
+      left: 0px;
+      background-color: rgb(253, 213, 164);
+    }
+  
+    50%{
+      transform: rotateZ(360deg);
+      left: 850px;
+      background-color: rgb(253, 213, 164);
+    }
+    55%{
+      transform: scale(1.3);
+      left: 850px;
+      background-color: red;
+    }
+    58%{
+      transform: scale(1);
+      transform: rotateZ(0deg);
+      left: 850px;
+      background-color: rgb(253, 213, 164);
+    }
+    100%{
+      transform: rotateZ(360deg);
+      left: 1720px;
+      background-color: rgb(253, 213, 164);
+    }
+  }
+  
+  
+  @keyframes shalapay1{
+    0%{
+      left: 100px;
+    }
+  
+    100%{
+      left: 1700px;
+    }
+  }
+  
+  
+  @keyframes shalapay2{
+    0%{
+      left: 100px;
+      top: -270px;
+    }
+  
+    100%{
+      left: 1700px;
+      top: 10px;
+    }
+  }
+  
+  @keyframes shalapay3{
+    0%{
+      top: -240px;
+      left: 96px;
+    }
+  
+    100%{
+      left: 1700px;
+      top: 200px;
+    }
+  }
+  
+  
+  @keyframes shalapay4{
+    0%{
+      top: -207px;
+      left: 88px;
+    }
+  
+    100%{
+      left: 1600px;
+      top: 350px;
+    }
+  }
+  
+  
+  @keyframes shalapay5{
+    0%{
+      top: -187px;
+      left: 65px;
+    }
+  
+    100%{
+      left: 1400px;
+      top: 450px;
+    }
+  }
+  
+  
+  @keyframes shalapay6{
+    0%{
+      top: -173px;
+      left: 47px;
+    }
+  
+    100%{
+      left: 1100px;
+      top: 550px;
+    }
+  }
